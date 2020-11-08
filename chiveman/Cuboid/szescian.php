@@ -47,7 +47,7 @@
     </div>
     <div>
     <br>
-    <button><a style="text-decoration: none;" href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    <button><a href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
     </div>
 </body>
 </html>

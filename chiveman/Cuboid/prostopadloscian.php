@@ -21,12 +21,12 @@
         <input type="number" name="b" placeholder="b"><br><br>
         <input type="number" name="c" placeholder="c"><br><br>
         <input type="submit" name="wynik" value="Oblicz">
-    <form>
+    </form>
     <?php
         if(!empty($_POST['a']) && !empty($_POST['b']) && !empty($_POST['c'])){
             if ($_POST['a'] <= 0 || $_POST['b'] <= 0 || $_POST['c'] <= 0 ){
             echo '<h4>Dane podane w formularzu muszą być liczbami dodatnimi!</h4>';
-            }
+            }       
             else {
                 require_once './scripts/prostopadloscian.php';
                 echo '<ul>';
@@ -44,7 +44,7 @@
             }
         }
     ?>
-    <div>
+    </div>
     <div>
     <br>
     <button><a href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>

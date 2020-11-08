@@ -23,7 +23,7 @@
     <form>
     <?php
         if(!empty($_POST['r']) && !empty($_POST['h'])){
-            if ($_POST['r'] <= 0 || $_POST['h'] <= 0){
+         if ($_POST['r'] <= 0 || $_POST['h'] <= 0){
             echo '<h4>Dane podane w formularzu muszą być liczbami dodatnimi!</h4>';
             }
             else {
@@ -47,7 +47,7 @@
     </div>
     <div>
     <br>
-    <button><a style="text-decoration: none;" href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    <button><a href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
     </div>
 </body>
 </html>
