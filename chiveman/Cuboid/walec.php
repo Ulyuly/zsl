@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Walec</title>
+    <style>
+      a {
+        text-decoration:none;
+    }
+    </style>
 </head>
 <body>
+<div>
     <h4>Walec</h4><br>
     <img src="obraz4.jpg"/>
     <hr>
@@ -27,7 +33,7 @@
                     echo '<li>Pole powierzchni bocznej: ',polepowbocznej($_POST['r'],$_POST['h']),'cm<sup>2</sup></li>';
                     echo '<li>Pole powierzchni całkowitej: ',polepowcalkowitej($_POST['r'],$_POST['h']),'cm<sup>2</sup></li>';
                     echo '<li>Objętość: ',objetosc($_POST['r'],$_POST['h']),'cm<sup>3</sup></li>';
-                echo '<ul>';
+                echo '</ul>';
             }
         }
         else{
@@ -38,7 +44,10 @@
             }
         }
     ?>
-    <br><br>
+    </div>
+    <div>
+    <br>
     <button><a style="text-decoration: none;" href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    </div>
 </body>
 </html>

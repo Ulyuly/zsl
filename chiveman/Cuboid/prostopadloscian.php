@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prostopadłościan</title>
+    <style>
+      a {
+        text-decoration:none;
+    }
+    </style>
 </head>
 <body>
+<div>
     <h4>Prostopadłościan</h4><br>
     <img src="obraz1.jpg"/>
     <hr>
@@ -27,7 +33,7 @@
                     echo '<li>Pole: ',pole($_POST['a'],$_POST['b'],$_POST['c']),'cm<sup>2</sup></li>';
                     echo '<li>Objętość: ',objetosc($_POST['a'],$_POST['b'],$_POST['c']),'cm<sup>3</sup></li>';
                     echo '<li>Dlugość przekątnej: ',przekatna($_POST['a'],$_POST['b'],$_POST['c']),'cm</li>';
-                echo '<ul>';
+                echo '</ul>';
             }
         }
         else{
@@ -38,7 +44,10 @@
             }
         }
     ?>
-    <br><br><br>
-    <button><a style="text-decoration: none;" href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    <div>
+    <div>
+    <br>
+    <button><a href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    </div>
 </body>
 </html>

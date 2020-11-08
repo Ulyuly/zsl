@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sześcian</title>
+    <style>
+      a {
+        text-decoration:none;
+    }
+    </style>
 </head>
 <body>
+    <div>
     <h4>Sześcian</h4><br>
     <img src="obraz2.jpg"/>
     <hr>
@@ -27,7 +33,7 @@
                     echo '<li>Dlugosc przekatnej: ',przekatna($_POST['a']),'cm</li>';
                     echo '<li>Promień kuli wpisanej w sześcian: ',promienwpisany($_POST['a']),'cm</li>';
                     echo '<li>Promień kuli opisanej w sześcian: ',promienopisany($_POST['a']),'cm</li>';
-                echo '<ul>';
+                echo '</ul>';
             }
         }
         else{
@@ -38,7 +44,10 @@
             }
         }
     ?>
-    <br><br><br>
+    </div>
+    <div>
+    <br>
     <button><a style="text-decoration: none;" href="3_zadanie_formularze_geometria.php">Powrót do strony głównej</a></button>
+    </div>
 </body>
 </html>
