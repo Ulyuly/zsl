@@ -13,7 +13,7 @@
 <body>
 <div>
     <h4>Prostopadłościan</h4><br>
-    <img src="obraz1.jpg"/>
+    <img src="obraz1.jpg" alt="walec"/>
     <hr>
     <h4>Dane</h4>
     <form method="post">

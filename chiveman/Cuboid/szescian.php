@@ -13,7 +13,7 @@
 <body>
     <div>
     <h4>Sześcian</h4><br>
-    <img src="obraz2.jpg"/>
+    <img src="obraz2.jpg" alt="walec"/>
     <hr>
     <h4>Dane</h4>
     <form method="post">
