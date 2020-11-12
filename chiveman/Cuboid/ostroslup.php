@@ -37,9 +37,11 @@
         }
         else{
             if(isset($_POST['a']) && isset($_POST['h']) && isset($_POST['H'])){
-                if($_POST['a'] == 0 || $_POST['h'] == 0 || $_POST['H'] == 0 ){
+                if($_POST['a'] === 0 || $_POST['h'] === 0 || $_POST['H'] === 0 ){
                     echo '<h4>Dane w formularzu nie mogą być 0!</h4>';
                 }
+                else {
+                    echo '<h4>Dane w polach nie mogą być puste</h4>';
             }
         }
     ?>
