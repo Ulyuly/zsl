@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="tuszynski_kamil.php"  method="post">
+<form action="tuszynski_kamil.php"  method="POST">
 <input type="text" name="name" placeholder="imię" autofocus><br><br>
 <input type="text" name="surname" placeholder="nazwisko"><br><br>
 <input type="number" name="a" placeholder="a"><br><br>
